@@ -1,6 +1,7 @@
 body, html {
     height: 100%;
     box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 ul{
@@ -8,15 +9,21 @@ ul{
 }
 
 #div_hero{
-    background-image: url('../Assets/Images/banner_img.jpg');
+    background-image: url('../Assets/Images/banner_img_3.jpg');
+    background-color: white;
     background-attachment: fixed;
-    height: 100vh;
-    /* width: 100%; */
-    background-color: lightblue;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;    
+}
+
+#div_hero h5{
+    font-size: 2rem;
 }
 
 #section_content{
-    background-color: lightblue;
+    /* background-color: #cdb787;
+    background-color: rgba(80, 70, 50, 0.8); */
 }
 
 #div_profile_img{
