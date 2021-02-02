@@ -1,0 +1,39 @@
+#hero_div {
+    height: 60vh;
+    background-color: lightblue;
+}
+
+/* #div_own_img {
+    background-image: url('./Assets/Images/own_image.JPG');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 10%;
+    border: 2px solid black;
+    border-radius: 50%;
+    clip-path: circle(50px at center);
+} */
+
+#div_2_own_img{
+    position: relative;
+    height: auto;
+}
+
+#own_img {
+    height: 100%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    display: block;    
+    border: 2px solid black;
+    clip-path: circle(30% at 50% 65%);
+}
+
+
+.toolkit_logos{
+    max-width: 80px;
+    max-height: 80px;
+    align-self: center;
+    justify-self: center;
+}

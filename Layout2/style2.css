@@ -1,0 +1,60 @@
+.panel{
+    height: 40vh;
+    transform-style: preserve-3d;
+    transition: all 3s ease;
+}
+
+/* .panel:hover{
+    transform: rotateY(180deg);
+} */
+
+
+
+.panel-front, .panel-back{
+    position: absolute;
+    height: 100%;
+    backface-visibility: hidden;
+    border: 2px solid black;
+}
+
+.panel-front{
+    background-color: lightblue;
+}
+
+.panel-back{
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: rotateY(180deg);
+}
+
+#div_profile_img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    z-index: 100;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    clip-path: circle(50% at 50% 50%);
+    background-color: blue;
+}
+
+#own_image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-53%, -65%);
+    height: 200%;
+}
+
+.toolkit_logos{
+    height: 30%;
+}
+
+
+
+/* Dynamic class added/removed by jQuery  */
+
+.flip{
+    transform: rotateY(180deg);
+}
+

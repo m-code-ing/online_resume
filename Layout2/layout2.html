@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayank Ashok</title>
+    <link rel="stylesheet" href="../Libraries/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body class="mt-5">
+
+    <div class="col-6 row m-0 p-0 mx-auto text-center justify-content-around">
+        <a href="../index.html" class="btn btn-dark text-white">Back to Index</a>
+        <a href="../Layout3/layout3.html" class="btn btn-danger">Change Style</a>
+    </div>
+
+    <main class="mt-5 mx-5 pb-5">
+        <section id="hero">
+
+            <div id="div_profile_img" class="m-0 p-0 mx-auto border">
+                <img id="own_image" src="../Assets/Images/own_image.JPG" alt="">
+            </div>
+
+            <div id="hero_div" class="col-12 row p-0 mx-auto">
+                <div class="panel m-0 p-0 col-6 row border" onclick="flip(this)">
+                    <div class="panel-front col-12 row m-0 p-0 align-items-center justify-content-center">
+                        <h3 class="text-white">About Me</h3>
+                    </div>                    
+                    <div class="panel-back col-12 m-0 p-1 justify-content-center">
+                        <h3 class="m-0 mx-auto p-0 col-10 text-center text-dark bg-white">About Me</h3>
+                        <h5 class="m-1 mx-auto p-0 col-10 text-white">I am an enthusiast web developer with working proficiency of HTML CSS & JavaScript</p>
+                        <h5 class="m-1 mx-auto p-0 col-10 text-white">I have a strong knowledge of jQuery, HTTP Requests, Ajax Calls, React</p>
+                        <h5 class="m-1 mx-auto p-0 col-10 text-white">Looking for a entry level web developer job to contribute and continuously learn and advance my career.</p>
+                    </div>                    
+                </div>
+
+                <div class="panel m-0 p-0 col-6 row border" onclick="flip(this)">
+                    <div class="panel-front col-12 row m-0 p-0 align-items-center justify-content-center">
+                        <h3 class="text-white">My Tool Kit</h3>
+                    </div>                    
+                    <div class="panel-back col-12 m-0 p-1 justify-content-center">
+                        <h3 class="m-0 mx-auto p-0 col-10 text-center text-dark bg-white">My Tool Kit</h3>
+                        <div id="div_tool_kit_images" class="col-12 row mt-4">
+                            <div class="col-lg-3 p-3">
+                                <img src="../Assets/Images/html_img.png" class="mx-auto d-block toolkit_logos" alt="">
+                            </div>
+                            <div class="col-lg-3 p-3">
+                                <img src="../Assets/Images/css_img.png" class="mx-auto d-block toolkit_logos" alt="">
+                            </div>
+                            <div class="col-lg-3 p-3">
+                                <img src="../Assets/Images/javascript_img.png" class="mx-auto d-block toolkit_logos" alt="">
+                            </div>
+                            <div class="col-lg-3 p-3">
+                                <img src="../Assets/Images/jquery_img.png" class="mx-auto d-block toolkit_logos" alt="">
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <!-- <div class="panel m-0 p-0 col-6 row border" onclick="flip(this)">
+                    <div class="panel-front col-12 row m-0 p-0 align-items-center justify-content-center">
+                        <h3 class="text-white">Projects</h3>
+                    </div>                    
+                    <div class="panel-back col-12 m-0 p-1 justify-content-center">
+                        <h3 class="text-white">Working on these projects</h3>
+                    </div>                    
+                </div> -->
+                <div class="panel contact-panel m-0 p-0 col-12 row border" onclick="flip(this)">
+                    <div class="panel-front col-12 row m-0 p-0 align-items-center justify-content-center">
+                        <h3 class="text-white">Contact Me</h3>
+                    </div>                    
+                    <div class="panel-back col-12 row m-0 p-1 justify-content-center align-items-center">
+                        <form class="col-10 row mx-auto p-2 border rounded bg-light" onclick="formClicked(event)">
+                            <div class="col-6">
+                                <div class="form-group col-10">
+                                    <label for="exampleInputName">Name</label>
+                                    <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Enter Name">
+                                  </div>
+                                  <div class="form-group col-10">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
+                                  </div>
+                            </div>
+                            
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Message</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>                            
+                          </form>
+                    </div>                    
+                </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+<script src="./app2.js"></script>
+<script src="../Libraries/jquery-3.4.1.js"></script>
+</html>
