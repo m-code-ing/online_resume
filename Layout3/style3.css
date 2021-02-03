@@ -7,7 +7,7 @@ body, html {
     width: 100%;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.1);
+    /* background-color: rgba(0, 0, 0, 0.1); */
 }
 p,h1,h2,h3,h5,h6{
     margin: 0px;
@@ -20,14 +20,14 @@ ul{
 }
 
 #div_hero{
-    background-image: url('../Assets/Images/banner_img_3.jpg');
+    /* background-image: url('../Assets/Images/banner_img_3.jpg'); */
     background-color: white;
-    background-attachment: fixed;
+    /* background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    background-size: cover; */
+    height: fit-content;
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin: 0px;
     padding: 0px;
 }
@@ -38,7 +38,6 @@ ul{
 
 #name_text{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
 }
 #name_text>span{
     color: blueviolet;
@@ -82,35 +81,18 @@ ul{
 
 .tool_card{
     position: relative;
-    height: 50vh;
-    width: 50vh;
-    background-color: white;
-    transform-style: preserve-3d;
-    transition: all 3s ease;
+    height: fit-content;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    overflow: hidden;
 }
 
-.card-front, .card-back {
-    position: absolute;
-    height: 100%;
+.card_title>h5{
+    font-size: 1.4rem;
+}
+
+.carousel_custom_class {
     width: 100%;
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
-    border: 1px solid black;
-    backface-visibility: hidden;
-}
-
-.card-front{
-    background-color: moccasin;
-}
-
-.card-back{
-    background-color: olive;
-    transform: rotateY(180deg);
-}
-
-.tool_card:hover{
-    transform: rotateY(180deg);
 }
 
 #div_tool_kit_images{
