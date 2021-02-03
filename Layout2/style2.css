@@ -4,7 +4,8 @@
     transition: all 3s ease;
 }
 
-/* .panel:hover{
+/* This class is replaced with .flip class under Dynamic classes added by jQuery at the end of this documentation.
+ .panel:hover{
     transform: rotateY(180deg);
 } */
 
