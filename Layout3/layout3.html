@@ -11,7 +11,7 @@
 </head>
 
 <body class="mt-5">
-    <main class="col-10 mx-auto">
+    <main class="col-12 mx-auto">
         <div class="col-6 d-none row m-0 p-0 mx-auto text-center justify-content-around">
             <a href="../index.html" class="btn btn-dark text-white">Back to Index</a>
             <a href="../Layout1/layout1.html" class="btn btn-danger">Change Style</a>
@@ -19,12 +19,12 @@
 
         <!-- STARTS -- Hero Section -->
         <section id="section_hero">
-            <div id="div_hero" class="row m-0 p-0 justify-content-center">
-                <div class="col-12 col-md-6 m-0 p-0 text-center">
+            <div id="div_hero" class="col-12 col-md-12 m-0 p-0 text-center">
+                <!-- <div class="col-12 col-md-6 m-0 p-0 text-center"> -->
                     <h5 id="name_text" class=""><span>mayank</span> ashok</h5>
                     <p class="">&lt; Front End Web Developer /&gt;</p>
-                    <h5 class="text-center">Converting Coffee into Code!</h5>
-                </div>
+                    <!-- <h5 class="text-center">Converting Coffee into Code!</h5> -->
+                <!-- </div> -->
             </div>
         </section>
         <!-- STARTS -- Hero Section -->
@@ -43,27 +43,27 @@
             </div>
 
             <!-- SELF INTRO CONTENT DIV -->
-            <div class="col-10 col-md-8 m-0 mx-auto d-flex">
-                <div class="col-12 m-0 p-0">
-                    <p class="my-2 p-0 pr-md-5">I am an enthusiast web developer with a very keen interest in developing
+            <!-- <div class="col-12 col-md-8 m-0 mx-auto d-flex"> -->
+                <div class="col-12 col-md-8 m-0 p-0 mx-auto row justify-content-center">
+                    <p class="my-2 p-0">I am an enthusiast web developer with a very keen interest in developing
                         web applications.</p>
-                    <p class="my-2 p-0 pr-md-5">Interested to join a team of developers where I can be a contributing
+                    <p class="my-2 p-0">Interested to join a team of developers where I can be a contributing
                         memeber as well as advance my career as a web developer.</p>
                     <div class="col-12 row m-0 p-0">
-                        <p class="col-12 col-sm-4">I have proficiency in : </p>
+                        <p class="col-12 col-sm-4 m-0 p-0">I have proficiency in : </p>
                         <div class="col-12 col-sm-8 m-0 p-0">
-                            <p class="m-0 p-0 pl-3"> HTML/CSS | JavaScript | jQuery | BootStrap</p>
+                            <p class="m-0 p-0"> HTML/CSS | JavaScript | jQuery | BootStrap</p>
                             <p class="m-0 p-0"> </p>
                         </div>
                     </div>
                 </div>
-            </div>
+            <!-- </div> -->
         </section>
         <!-- ENDS Self intro section -->
 
 
         <!-- STARTS Tool Kit Section -->
-        <section id="tools" class="col-12 mt-4 px-2 justify-content-center">
+        <section id="tools" class="col-12 col-md-8 mt-4 px-2 mx-auto justify-content-center">
 
             <div class="col-12 m-0 p-0 pb-2 text-center">
                 <h1 class="col-8 col-md-4 m-0 p-0 mx-auto p-2 border-top border-bottom border-dark">My Tool Kit</h1>
@@ -71,7 +71,7 @@
 
 
             <!-- Tool Kit Card - Carousel -->
-            <div class="col-12 d-flex flex-column flex-md-row justify-content-between align-items-center border">
+            <div class="col-12 d-flex flex-column flex-md-row justify-content-between align-items-center">
 
                 <!-- Front End / Client Side Card -->
                 <div class="tool_card col-10 col-sm-6 col-md-3 m-0 p-0 mx-auto my-3 d-flex flex-column text-center">
@@ -79,15 +79,15 @@
                         data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="../Assets/Images/html_img.png" height="250px"
+                                <img class="carousal_image d-block w-100" src="../Assets/Images/html_img.png" 
                                     alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="../Assets/Images/css_img.png" height="250px"
+                                <img class="carousal_image d-block w-100" src="../Assets/Images/css_img.png" 
                                     alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="../Assets/Images/javascript_img.png" height="250px"
+                                <img class="carousal_image d-block w-100" src="../Assets/Images/javascript_img.png" 
                                     alt="Third slide">
                             </div>
                         </div>
@@ -120,16 +120,12 @@
                         data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="../Assets/Images/angular_logo.png" height="250px"
+                                <img class="carousal_image d-block w-100" src="../Assets/Images/angular_logo.png" height="250px"
                                     alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="../Assets/Images/react_logo.png" height="250px"
+                                <img class="carousal_image d-block w-100" src="../Assets/Images/react_logo.png" height="250px"
                                     alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="../Assets/Images/javascript_img.png" height="250px"
-                                    alt="Third slide">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls2" role="button"
@@ -162,11 +158,11 @@
                         data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="../Assets/Images/php_logo.png" height="250px"
+                                <img class="carousal_image d-block w-100" src="../Assets/Images/php_logo.png" height="250px"
                                     alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="../Assets/Images/mySQL_logo.png" height="250px"
+                                <img class="carousal_image d-block w-100" src="../Assets/Images/mySQL_logo.png" height="250px"
                                     alt="Second slide">
                             </div>
                         </div>
@@ -246,8 +242,6 @@
             </div>
             <!--Ends here -  Front End Tool Kit Description -->
 
-            <div class="spacer"></div>
-
 
             <!--Starts here -  Back End Tool Kit Description -->
 
@@ -270,19 +264,19 @@
             </div>
             <!--Ends here -  Back End Tool Kit Description -->
             <div class="spacer"></div>
+
             <!--Starts here -  Data Structures Description -->
             <div class="col-10 row m-0 p-0">
                 <div class="col-12 text-center">
                     <h3>Data Structures</h3>
                     <p>Good understanding of Data Structures such as</p>
                     <ul class="row m-0 p-0 justify-content-around">
-                        <li class="p-2 border rounded bg-light">Arrays</li>
-                        <li class="p-2 border rounded bg-light">Link Lists</li>
-                        <li class="p-2 border rounded bg-light">Doubly Linked List</li>
-                        <li class="p-2 border rounded bg-light">Binary Search Tree</li>
-                        <li class="p-2 border rounded bg-light">Hash Tables</li>
-                        <li class="p-2 border rounded bg-light">Graphs</li>
-
+                        <li class="m-2 p-2 border border-dark rounded bg-light">Arrays</li>
+                        <li class="m-2 p-2 border border-dark rounded bg-light">Link Lists</li>
+                        <li class="m-2 p-2 border border-dark rounded bg-light">Doubly Linked List</li>
+                        <li class="m-2 p-2 border border-dark rounded bg-light">Binary Search Tree</li>
+                        <li class="m-2 p-2 border border-dark rounded bg-light">Hash Tables</li>
+                        <li class="m-2 p-2 border border-dark rounded bg-light">Graphs</li>
                     </ul>
                 </div>
             </div>
@@ -293,7 +287,7 @@
 
         <div class="spacer"></div>
 
-        <section id="contact_form" class="col-6 mx-auto my-4 p-4">
+        <section id="contact_form" class="col-10 col-md-8 mx-auto my-4 p-4">
             <h5 class="text-center">Get in touch</h5>
             <form class="col-10 my-4 p-4 mx-auto border border-dark rounded bg-light">
                 <div class="form-group">
