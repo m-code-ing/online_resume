@@ -79,29 +79,11 @@ ul{
     left: -50%;
 }
 
-.tool_card{
-    position: relative;
-    height: 200px;
-    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
-    border-radius: 25px;
-    overflow: hidden;
-}
-
-.card_title>h5{
-    font-size: 1.4rem;
-}
-
-.carousel_custom_class {
-    width: 100%;
-}
-
-.carousal_image{
-    height: 100px;
-}
-
-
-#div_tool_kit_images{
+.div_tool_kit_images{
     height: 150px;
+    /* animation-name:slide-in;
+    animation-duration: 4s;
+    animation-iteration-count: 1; */
 }
 
 .toolkit_logos{
@@ -115,4 +97,12 @@ ul{
     width: 80%;
     border: 1px dotted black;
     margin: 50px;
+}
+
+
+/* Animations Starts here */
+
+@keyframes slide-in{
+    from{transform:translateX(-1000px);}
+    to {transform: translateX(50px);}
 }
